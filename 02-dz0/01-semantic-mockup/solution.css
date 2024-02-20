@@ -1,0 +1,46 @@
+
+
+h1 {
+    height: 100px;
+    line-height: 100px;
+    background-color:red;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+nav {
+    height: 70px;
+    background-color:orange;
+    margin: 0;
+    text-align: center;
+}
+
+.links {
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+}
+
+main {
+    background-color:green;
+    margin: 0;
+    border: none;
+}
+
+article {
+    background-color:blue;
+    margin: 0;
+    color: white;
+}
+
+footer {
+    height: 100px;
+    line-height: 100px;
+    background-color:purple;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
