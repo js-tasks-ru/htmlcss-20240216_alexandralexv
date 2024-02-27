@@ -1,1 +1,11 @@
 /* Стилизация кнопки */
+
+
+.button {
+    color:black;
+    background-color: aqua;
+}
+
+.button__secodary:disabled {
+    background-color: gray;
+}
