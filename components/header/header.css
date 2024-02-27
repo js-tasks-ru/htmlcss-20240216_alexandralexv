@@ -3,5 +3,14 @@
 }
 
 .header_title {
-    color: brown;
+    position:relative;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    width: 670px;
+    height: 64px;
+    /* top: 96px; */
+    left: 160px;
 }
+
