@@ -1,13 +1,29 @@
 /* Стилизация аккордеона */
- 
-.accordion {
-    font-size: 16px;
-    font-weight: 500;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 0.5em 0.5em 0.5em;
-  }
 
-.accordion_summary::-webkit-details-marker {
+.accordion {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5em 0.5em 0.5em;
+}
+
+.accordion__item {
+  margin-bottom: 8px;
+}
+
+.accordion__item:last-child {
+  margin-bottom: 0;
+}
+
+.summary {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.summary::-webkit-details-marker {
   display: none;
+}
+
+.summary__cursor {
+  cursor: pointer
 }
