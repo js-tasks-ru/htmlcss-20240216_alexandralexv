@@ -74,5 +74,5 @@ h1 {
 }
 
 .button:disabled {
-    filter: blur(0.7px);
+    opacity: 0.33;
 }
