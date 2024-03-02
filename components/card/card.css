@@ -1,8 +1,11 @@
 .card {
-    color: var(--black);
+    --color_of_text_card: var(--black);
+    --color_of_card: var(--white);
+    color: var(--color_of_text_card);
     width: 350px;
-    padding: 40px;
-    border: 1px solid var(--black);
+    padding: 30px;
+    background-color: var(--color_of_card);
+    border: 1px solid var(--color_of_card);
     display: inline-block;
     box-sizing: border-box;
 }
@@ -13,12 +16,12 @@
 
 .card__title {
     margin: 0;
-    color: var(--black);
+    color: var(--color_of_text_card);
+    text-align: center
 }
 
 .card__image {
     height: 100px;
-    background-color: var(--black);
 }
 
 .card__button {
