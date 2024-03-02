@@ -3,3 +3,11 @@
     padding: 68px 0;
     
 }
+
+.main__cards {
+    font-size: 0;
+}
+
+.main__card {
+    font-size: 16px;
+}
