@@ -1,11 +1,13 @@
 .footer {
     background-color: var(--white);
     padding: 100px;
+    display: flex;
+    box-sizing: border-box;
 }
 
 .footer_title {
     font-family: Inter;
-    font-size: 38px;
+    /* font-size: 38px; */
     font-weight: 500;
     line-height: 48px;
     text-align: center;
@@ -15,7 +17,7 @@
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     text-align: center;
 }
 
