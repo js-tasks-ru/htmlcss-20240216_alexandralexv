@@ -1,0 +1,11 @@
+.container {
+    background-color: white;
+    width: 354px;
+    height: 185px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.histogram {
+
+}
