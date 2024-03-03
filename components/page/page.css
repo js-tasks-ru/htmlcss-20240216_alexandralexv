@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 
-.page_main {
+.page__main {
     flex-grow: 1;
 }
 

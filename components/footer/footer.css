@@ -3,7 +3,7 @@
     padding: 100px;
 }
 
-.footer_title {
+.footer__title {
     font-family: Inter;
     font-size: 38px;
     font-weight: 500;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.footer_text {
+.footer__text {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
