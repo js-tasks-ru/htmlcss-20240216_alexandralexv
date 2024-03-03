@@ -1,11 +1,5 @@
 /* Стилизация кнопки */
 
-h1 {
-    position: relative;
-    width: 142px;
-    height: 46px;
-}
-
 .button {
     position: relative;
     color:white;
