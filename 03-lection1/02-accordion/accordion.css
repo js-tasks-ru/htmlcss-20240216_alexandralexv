@@ -12,7 +12,7 @@
 }
 
 .accordion__item[open] {
-  padding: 24px 32px;
+  padding: 24px 32px 32px;
 }
 
 .accordion__item:last-child {
