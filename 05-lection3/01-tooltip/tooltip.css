@@ -1,0 +1,15 @@
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip__trigger {
+
+}
+
+.tooltip__bubble {
+    display: none;   
+}
+
+.tooltip__trigger:hover ~ .tooltip__bubble {
+    display: block;
+}
