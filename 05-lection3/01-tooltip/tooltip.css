@@ -23,6 +23,17 @@
     font-weight: 400;
     line-height: 24px;
     white-space: nowrap;
+    position: absolute;
+}
+
+.tooltip__bubble:before {
+    content: "";
+    border: 10px solid transparent;
+    border-bottom-color: #212429;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
