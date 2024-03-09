@@ -10,7 +10,7 @@
 }
 
 .tooltip__bubble {
-    /* display: none; */
+    display: none;
     padding: 13px 21px 8px 21px;
     border-radius: 10px;
     background: var(--Black, #4263EB);
