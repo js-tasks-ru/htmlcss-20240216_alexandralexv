@@ -4,7 +4,7 @@
     height: 185px;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 16px 24px 24px 26px;
+    padding: 16px 24px 24px 24px;
     box-sizing: border-box;
 }
 
@@ -25,6 +25,7 @@
     line-height: 24px;
     opacity: 0.8;
     color: #212429;
+    margin: 0;
 }
 
 .histogram__header_view-all {
@@ -34,6 +35,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #4263EB;
+    margin: 0;
 }
 
 .histogram__total {
@@ -42,7 +44,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    padding: 0px 0px 16px 0px;
+    margin: 0 0 39px 0;
 }
 
 .histogram__bars {
