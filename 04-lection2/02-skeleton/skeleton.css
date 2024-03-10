@@ -9,12 +9,6 @@
     box-sizing: border-box;
     border-radius: 8px;
   }
-
-.container-2 {
-    width: 515px;
-    height: 128px;
-    box-sizing: border-box;
-}
   
   .circle {
     height: 70px;
@@ -23,7 +17,7 @@
     border-radius: 50%;
     margin: -8px 0 0 0;
   }
-  
+
   .rectangle-block-1{
     align-self: center;
     margin: 0 0 0 16px;
