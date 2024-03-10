@@ -12,10 +12,94 @@
     cursor: pointer;
 }
 
-.container {
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: none;
-    background: grey;
     width: 100vw;
     height: 100vh;
+
+}
+/* Это я пытаюсь бороться с тем, 
+чтобы прозрачность не передовалась наследникам. 
+Почитав в интернете понял, что никак отменить opacity нельзя, 
+советуют сделать вместо него rgba,
+но в фигме написана opacity - 
+значит используем её.
+И тут наткнулся на статью, как это можно обойти, 
+используя opacity не в родителе, 
+а в привязанном наследнике modal__opacity
+ */
+.modal__opacity { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    width: 100%;
+    background: grey;
+}
+
+.container {
+    display: grid;
+}
+
+
+.container__main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    width: 428px;
+    height: 294px;
+    border-radius: 8px;
+    place-self: center;
+    opacity: 1;
+    padding: 30px 40px 33px 40px;
+    box-sizing: border-box;
+}
+
+.container__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.container__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    margin: 0;
+}
+
+.container__cross {
+    padding: 0;
+    border: 0;
+    background: white;
+    align-self: start;
+    margin: -18px -28px 0 0;
+}
+
+.container__text {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+    bottom: 0;
+    margin: 0 40px 33px 0px;
 }
 
