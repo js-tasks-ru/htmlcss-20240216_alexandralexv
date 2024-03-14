@@ -1,16 +1,13 @@
-.container{
-    width: 579px;
-    height: 192px;
+.skeleton {
     border: 1px solid #ACB5BD;
     padding: 32px 40px 32px 24px;
     display: flex;
-    flex-wrap: wrap;
-    background-color: #FFFFFF;
+    flex-direction: column;
     box-sizing: border-box;
     border-radius: 8px;
   }
   
-  .circle {
+  .skeleton__circle {
     height: 70px;
     width: 70px;
     background-color: #DDE2E5;
@@ -18,31 +15,41 @@
     margin: -8px 0 0 0;
   }
 
-  .rectangle-block-1{
-    align-self: center;
-    margin: 0 0 0 16px;
+  .skeleton__top {
+    display: flex;
+    flex-direction: row;
   }
-  
-  .rectangle-block-2{
-    align-self: flex-end;
+
+  .skeleton__top_right {
+    display: flex;
+    flex-direction:column;
+    margin: 0 0 0 16px
+  }
+
+  .skeleton__bottom {
+    display: flex;
+    flex-direction: column;
     margin: 24px 0 0 0;
   }
   
-  .rectangle {
+  .skeleton__rectangle {
     background-color: #DDE2E5;
     margin: 0 0 8px 0;
     height: 20px;
   }
 
-  .rectangle_1 {
+  .skeleton__rectangle_1 {
     width: 172px;
   }
-  .rectangle_2 {
+  .skeleton__rectangle_2 {
     width: 257px;
-    height: 20px;
+  }
+  .skeleton__rectangle_3 {
+    width: 515px;
   }
 
-  .rectangle_3 {
-    width: 515px;
+  .skeleton__rectangle:last-child {
+    background-color: #DDE2E5;
+    margin: 0;
     height: 20px;
   }
