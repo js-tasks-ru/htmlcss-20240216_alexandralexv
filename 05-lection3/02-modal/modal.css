@@ -1,5 +1,4 @@
-.button {
-    height: 48px;
+.modal__button {
     background: #4263EB;
     color:white;
     border-radius: 8px;
@@ -13,7 +12,7 @@
 }
 
 .modal {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -23,6 +22,7 @@
     height: 100vh;
 
 }
+
 /* Это я пытаюсь бороться с тем, 
 чтобы прозрачность не передовалась наследникам. 
 Почитав в интернете понял, что никак отменить opacity нельзя, 
@@ -44,12 +44,7 @@
     background: grey;
 }
 
-.container {
-    display: grid;
-}
-
-
-.container__main {
+.modal__window {
     position: absolute;
     top: 0;
     left: 0;
@@ -60,12 +55,11 @@
     height: 294px;
     border-radius: 8px;
     place-self: center;
-    opacity: 1;
     padding: 30px 40px 33px 40px;
     box-sizing: border-box;
 }
 
-.container__flex {
+.modal__flex {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -73,34 +67,32 @@
 }
 
 
-.container__title {
+.modal__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #334D6E;
-    margin: 0;
+    margin: 0 0 14px 0;
 }
 
-.container__cross {
+.modal__cross {
+    position: absolute;
     padding: 0;
     border: 0;
     background: white;
-    align-self: start;
-    margin: -18px -28px 0 0;
     cursor: pointer;
+    top: 12px;
+    right: 12px;
 }
 
-.container__text {
-    position: absolute;
+.modal__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #495057;
-    bottom: 0;
-    margin: 0 40px 33px 0px;
 }
 
