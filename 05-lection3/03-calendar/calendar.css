@@ -2,7 +2,7 @@
     position: absolute;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
-    padding: 28px 24px 30px 26px;
+    padding: 28px 26px 32px;
     width: 100%;
     max-width: 300px;
     box-sizing: border-box;
@@ -15,7 +15,7 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    padding: 0 0 16px 0;
+    margin: 0 0 16px 0;
     color: #334D6E;
 }
 
@@ -52,14 +52,12 @@
 
 .calendar__item_active {
     display: grid;
-    /* width: 1em;
-    height: 1em; */
     background: #4263EB;
+    color: white;
     place-self: stretch;
 }
 
-.calendar__item_active2 {
-    place-self: center;
+.calendar__item_white {
     color: #FFFFFF;
 }
 
@@ -69,9 +67,6 @@
     place-self: stretch;
 }
 
-.calendar__item_between-active2 {
-    place-self: center;
-}
 
 
 
