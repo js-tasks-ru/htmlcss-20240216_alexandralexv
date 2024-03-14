@@ -1,6 +1,7 @@
 .main {
     background-color: var(--grey-1);
     padding: 68px 0 ;
+    overflow: hidden;
 }
 
 .main__cards {
