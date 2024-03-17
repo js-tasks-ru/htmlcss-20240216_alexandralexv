@@ -5,12 +5,14 @@
 }
 
 .main__cards {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 0;
-    /* gap: 30px; */
-    margin: -15px;
+    gap: 30px;
+
 }
 
 .main__card {
     font-size: 16px;
-    margin: 15px;
+
 }
