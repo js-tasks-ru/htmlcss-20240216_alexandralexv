@@ -20,8 +20,12 @@
     display: none;
     width: 100vw;
     height: 100vh;
+    background-color: rgba(196 196 196 / 0.5);
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 /* Это я пытаюсь бороться с тем, 
 чтобы прозрачность не передовалась наследникам. 
@@ -32,7 +36,7 @@
 И тут наткнулся на статью, как это можно обойти, 
 используя opacity не в родителе, 
 а в привязанном наследнике modal__opacity
- */
+
 .modal__opacity { 
     position: absolute;
     top: 0;
@@ -42,19 +46,14 @@
     opacity: 0.5;
     width: 100%;
     background: grey;
-}
+} */
 
 .modal__window {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background: white;
     width: 428px;
     height: 294px;
     border-radius: 8px;
-    place-self: center;
     padding: 30px 40px 33px 40px;
     box-sizing: border-box;
 }
