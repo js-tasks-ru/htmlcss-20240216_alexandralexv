@@ -1,0 +1,18 @@
+.main {
+    background-color: var(--grey-1);
+    padding: 68px 0 ;
+    overflow: hidden;
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+    gap: 30px;
+
+}
+
+.main__card {
+    font-size: 16px;
+
+}
