@@ -21,3 +21,17 @@
     text-align: center;
     color: var(--black);
 }
+
+.footer_template {
+    padding: 56px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.footer__title_template {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ACB5BD;
+}
+

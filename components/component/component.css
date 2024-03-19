@@ -1,0 +1,14 @@
+.component {
+    background-color: var(--white);
+}
+
+.component__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #495057;
+    margin: 32px 48px;
+}
+

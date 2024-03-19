@@ -1,0 +1,29 @@
+.menu {
+    width: 229px;
+}
+
+.menu__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0 0 16px 0;
+}
+
+.menu__texts {
+    display: grid;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212429;
+    gap: 4px;
+}
+
+.menu__text {
+    height: 22px;
+}
+
