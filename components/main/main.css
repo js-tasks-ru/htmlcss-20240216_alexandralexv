@@ -9,10 +9,21 @@
     flex-wrap: wrap;
     font-size: 0;
     gap: 30px;
-
 }
 
 .main__card {
     font-size: 16px;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .main {
+        padding: 24px 0;
+  }
+
+    .main__cards {
+        gap: 16px;
+    }
 
 }
