@@ -1,5 +1,6 @@
 .component {
     background-color: var(--white);
+    border-radius: 12px;
 }
 
 .component__title {

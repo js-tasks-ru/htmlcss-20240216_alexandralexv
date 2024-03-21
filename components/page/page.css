@@ -11,5 +11,5 @@
 .page_template {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: var(--grey-1);
+    background: var(--grey-1);
 }
