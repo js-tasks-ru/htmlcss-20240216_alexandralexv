@@ -55,5 +55,22 @@
     background-color: #4263EB;
 }
 
-
+@media screen and (max-width: 768px) {
+    .histogram {
+        padding: 6px 8px 8px 8px;
+    }
+    .histogram__total-orders {
+        font-size: 14px;
+    }
+    
+    .histogram__link {
+        font-size: 14px;
+        text-align: end;
+    }
+    
+    .histogram__total {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
 
