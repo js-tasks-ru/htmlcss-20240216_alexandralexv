@@ -24,6 +24,8 @@
 }
 
 .menu__text {
-    height: 22px;
 }
 
+.menu__text_margin-bottom {
+    margin-bottom: 14px;
+}
