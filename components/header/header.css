@@ -12,3 +12,18 @@
     color: var(--black);
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 48px 0 32px;
+    }
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+  }
+}
+
+
