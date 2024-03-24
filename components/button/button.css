@@ -1,0 +1,15 @@
+.button {
+    color:white;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_primary {
+    background-color: #4263EB;
+}

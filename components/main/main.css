@@ -9,16 +9,31 @@
     flex-wrap: wrap;
     font-size: 0;
     gap: 30px;
-
 }
 
 .main__card {
     font-size: 16px;
 }
 
+
 .main_template {
     background-color: rgba(255, 255, 255, 0);
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 56px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .main {
+        padding: 24px 0;
+        background: #F9FAFC;
+  }
+
+    .main__cards {
+        gap: 16px;
+    }
+
 }
