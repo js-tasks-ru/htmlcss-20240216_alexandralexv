@@ -8,3 +8,8 @@
     flex-grow: 1;
 }
 
+.page_template {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: var(--grey-1);
+}
