@@ -35,11 +35,22 @@
     color: #495057;
 }
 
+.radio_disabled {
+    color: #DDE2E5;
+}
+
+.radio__icon {
+    display: none;
+}
+
 .radio__input:checked ~ .radio__state 
 .radio__control {
     border-color: #4263EB;
-    background-color: #4263EB;
+}
 
+.radio__input:checked ~ .radio__state .radio__control 
+.radio__icon {
+    display: block;
 }
 
 .radio__input:focus ~ .radio__state 
