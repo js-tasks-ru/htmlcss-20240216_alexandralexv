@@ -10,6 +10,7 @@
 }
 
 .checkbox__control{
+    box-sizing: border-box;
     width: 28px;
     height: 28px;
     border-radius: 4px;
