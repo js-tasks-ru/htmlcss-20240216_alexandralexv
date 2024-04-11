@@ -6,10 +6,30 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-        <label class="toggler">
-            <input type="checkbox" class="toggler__input">
-            <div class="toggler__slider"></div>
+        <label class="radio">
+            <input class="radio__input" type="radio" name="radio-name">
+            <div class="radio__state">
+                <div class="radio__control"></div>
+                <div class="radio__label">Default</div>
+            </div>
         </label>
-        <div class="toggler__label">Default</div>
+
+        <label class="radio">
+            <input class="radio__input" type="radio" name="radio-name">
+            <div class="radio__state">
+                <div class="radio__control radio__control_change">
+                    <div class="radio__circle"></div>
+                </div>
+                <div class="radio__label">Selected</div>
+            </div>
+        </label>
+
+        <label class="radio">
+            <input class="radio__input" type="radio" name="radio-name" disabled>
+            <div class="radio__state">
+                <div class="radio__control radio__control_filling"></div>
+                <div class="radio__label radio_disabled">Disabled</div>
+            </div>
+        </label>
     </body>
 </html>
