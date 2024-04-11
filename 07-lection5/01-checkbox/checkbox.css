@@ -38,13 +38,13 @@
 }
 
 .checkbox__input:checked ~ .checkbox__state 
-.checkbox__control{
+.checkbox__control_filling {
     border-color: #4263EB;
     background-color: #4263EB;
 }
 
 .checkbox__input:focus ~ .checkbox__state 
-.checkbox__label{
+.checkbox__label {
     text-decoration: underline;
 }
 
