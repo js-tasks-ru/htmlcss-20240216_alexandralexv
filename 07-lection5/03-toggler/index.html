@@ -6,29 +6,33 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-        <label class="radio">
-            <input class="radio__input" type="radio" name="radio-name">
-            <div class="radio__state">
-                <div class="radio__control"></div>
-                <div class="radio__label">Default</div>
-            </div>
-        </label>
-
-        <label class="radio">
-            <input class="radio__input" type="radio" name="radio-name">
-            <div class="radio__state">
-                <div class="radio__control radio__control_change">
-                    <div class="radio__circle"></div>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" name="toggler-name">
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__circle"></div>
                 </div>
-                <div class="radio__label">Selected</div>
+                <div class="toggler__label">Off</div>
             </div>
         </label>
 
-        <label class="radio">
-            <input class="radio__input" type="radio" name="radio-name" disabled>
-            <div class="radio__state">
-                <div class="radio__control radio__control_filling"></div>
-                <div class="radio__label radio_disabled">Disabled</div>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" name="toggler-name">
+            <div class="toggler__state">
+                <div class="toggler__control toggler__control_change">
+                    <div class="toggler__circle"></div>
+                </div>
+                <div class="toggler__label">On</div>
+            </div>
+        </label>
+
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" name="toggler-name" disabled>
+            <div class="toggler__state">
+                <div class="toggler__control toggler__control_filling">
+                    <div class="toggler__circle toggler__circle_filling"></div>
+                </div>
+                <div class="toggler__label">Disabled</div>
             </div>
         </label>
     </body>
