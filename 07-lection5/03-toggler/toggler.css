@@ -58,18 +58,13 @@
 .toggler__control_change {
     border: 1px solid #4263EB;
     background-color: #4263EB;
-}
-
-.toggler__input:checked ~ .toggler__state
-.toggler__control_change{
     align-items: center;
     justify-content: flex-end;
+    .toggler__circle {
+        background-color: white;
+    }
 }
 
-.toggler__input:checked ~ .toggler__state .toggler__control_change
-.toggler__circle{
-
-}
 
 .toggler__input:focus ~ .toggler__state 
 .toggler__label {
