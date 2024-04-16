@@ -52,20 +52,18 @@
     color: #495057;
 }
 
-.radio_disabled {
+.radio__label_disabled {
     color: #DDE2E5;
 }
 
-.radio__input:checked ~ .radio__state 
-.radio__control_change {
+.radio__input:checked~.radio__state .radio__control_change {
     border: 2px solid #4263EB;
 }
-.radio__input:checked ~ .radio__state .radio__control_change 
-.radio__circle{
+
+.radio__input:checked~.radio__state .radio__control_change .radio__circle {
     display: block;
 }
 
-.radio__input:focus ~ .radio__state 
-.radio__label {
+.radio__input:focus~.radio__state .radio__label {
     text-decoration: underline;
 }
