@@ -56,11 +56,11 @@
     color: #DDE2E5;
 }
 
-.radio__input:checked~.radio__state .radio__control_change {
+.radio__input:checked~.radio__state .radio__control {
     border: 2px solid #4263EB;
 }
 
-.radio__input:checked~.radio__state .radio__control_change .radio__circle {
+.radio__input:checked~.radio__state .radio__control .radio__circle {
     display: block;
 }
 
