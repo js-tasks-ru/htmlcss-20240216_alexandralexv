@@ -25,9 +25,18 @@
 }
 
 .input__icon {
+    display: none;
     position: absolute;
     top: 16px;
     right: 16px;
+}
+
+.input__icon_success {
+    display: block;
+}
+
+.input__icon_error {
+    display: block;
 }
 
 .input__wrapper {
@@ -35,10 +44,10 @@
     max-width: 350px;
 }
 
-.input__input_focus:focus {
+.input__input:focus {
     border: 1px solid #4263EB;
 }
 
-.input__input_error {
+.input_error .input__input {
     border-color: #F03D3E;
 }
