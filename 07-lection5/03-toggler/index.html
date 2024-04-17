@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <!-- Страница с кнопкой переключения -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./toggler.css">
-    </head>
-    <body>
-        <label class="toggler">
-            <input class="toggler__input" type="checkbox" name="toggler-name">
-            <div class="toggler__state">
-                <div class="toggler__control">
-                    <div class="toggler__circle"></div>
-                </div>
-                <div class="toggler__label">Off</div>
-            </div>
-        </label>
 
-        <label class="toggler">
-            <input class="toggler__input" type="checkbox" name="toggler-name">
-            <div class="toggler__state">
-                <div class="toggler__control toggler__control_change">
-                    <div class="toggler__circle"></div>
-                </div>
-                <div class="toggler__label">On</div>
-            </div>
-        </label>
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./toggler.css">
+</head>
 
-        <label class="toggler">
-            <input class="toggler__input" type="checkbox" name="toggler-name" disabled>
-            <div class="toggler__state">
-                <div class="toggler__control toggler__control_filling">
-                    <div class="toggler__circle toggler__circle_filling"></div>
-                </div>
-                <div class="toggler__label">Disabled</div>
+<body>
+    <label class="toggler">
+        <input class="toggler__input" type="checkbox" name="toggler-name">
+        <div class="toggler__state">
+            <div class="toggler__control">
+                <div class="toggler__circle"></div>
             </div>
-        </label>
-    </body>
+            <div class="toggler__label">Off</div>
+        </div>
+    </label>
+
+    <label class="toggler">
+        <input class="toggler__input" type="checkbox" name="toggler-name">
+        <div class="toggler__state">
+            <div class="toggler__control">
+                <div class="toggler__circle"></div>
+            </div>
+            <div class="toggler__label">On</div>
+        </div>
+    </label>
+
+    <label class="toggler">
+        <input class="toggler__input" type="checkbox" name="toggler-name" disabled>
+        <div class="toggler__state">
+            <div class="toggler__control toggler__control_filling">
+                <div class="toggler__circle toggler__circle_filling"></div>
+            </div>
+            <div class="toggler__label">Disabled</div>
+        </div>
+    </label>
+</body>
+
 </html>
