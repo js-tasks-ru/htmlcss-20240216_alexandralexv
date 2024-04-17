@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 
-.checkbox__input:checked~.checkbox__state .checkbox__control_filling {
+.checkbox__input:checked~.checkbox__state .checkbox__control {
     border-color: #4263EB;
     background-color: #4263EB;
 }
