@@ -26,7 +26,7 @@
     line-height: 24px;
 }
 
-.checkbox_disabled {
+.checkbox__input:disabled~.checkbox__state .checkbox__label {
     color: #DDE2E5;
 }
 
