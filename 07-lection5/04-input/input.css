@@ -1,0 +1,53 @@
+.input__input {
+    width: 350px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 24px;
+    border: 1px solid #DDE2E5;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input__label {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ACB5BD;
+    margin-bottom: 5px;
+}
+
+.input__icon {
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.input__icon_success {
+    display: block;
+}
+
+.input__icon_error {
+    display: block;
+}
+
+.input__wrapper {
+    position: relative;
+    max-width: 350px;
+}
+
+.input__input:focus {
+    border: 1px solid #4263EB;
+}
+
+.input_error .input__input {
+    border-color: #F03D3E;
+}
