@@ -39,7 +39,7 @@
     display: none;
 }
 
-.radio__control_filling {
+.radio__input:disabled~.radio__state .radio__control {
     background-color: #DDE2E5;
 }
 
@@ -52,7 +52,7 @@
     color: #495057;
 }
 
-.radio__label_disabled {
+.radio__input:disabled~.radio__state .radio__label {
     color: #DDE2E5;
 }
 
