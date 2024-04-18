@@ -37,11 +37,11 @@
     position: relative;
 }
 
-.toggler__control_filling {
+.toggler__input:disabled~.toggler__state .toggler__control {
     background-color: #DDE2E5;
 }
 
-.toggler__circle_filling {
+.toggler__input:disabled~.toggler__state .toggler__circle {
     background-color: #ACB5BD;
 }
 
