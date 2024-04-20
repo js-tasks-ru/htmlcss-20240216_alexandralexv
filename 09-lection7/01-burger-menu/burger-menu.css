@@ -16,6 +16,21 @@
     box-sizing: border-box;
 }
 
+.burger-menu__main {
+    padding: 16px;
+    display: grid;
+    grid-template-rows: 8;
+}
+
+.burger-menu__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ACB5BD;
+}
+
 .burger-menu__icon-close {
     align-self: center;
     border: 0;
@@ -24,7 +39,7 @@
 }
 
 .burger-menu__icon {
-    align-self: center;
+    margin-left: 8px;
 }
 
 .burger-menu__icon_margin {
