@@ -19,7 +19,7 @@
 .burger-menu__main {
     padding: 16px;
     display: grid;
-    grid-template-rows: 8;
+    gap: 16px;
 }
 
 .burger-menu__title {
@@ -29,6 +29,23 @@
     font-size: 20px;
     line-height: 26px;
     color: #ACB5BD;
+}
+
+.burger-menu__small-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+}
+
+.burger-menu__small-title_down {
+    margin-top: 72px;
+}
+
+.burger-menu__small-title:focus {
+    color: #D84910;
 }
 
 .burger-menu__icon-close {
