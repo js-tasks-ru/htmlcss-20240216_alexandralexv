@@ -1,15 +1,122 @@
 <!DOCTYPE html>
 <!-- Пример использования theme-changer -->
 <html lang="ru">
-    <head>
-        <style>
-            html[data-theme-dark] {
-                background: #000;
-            }
-        </style>
-        <script defer src="./theme-changer.js"></script>
-    </head>
-    <body>
-        <input type="checkbox" id="theme-changer">
-    </body>
+
+<head>
+    <style>
+        html[data-theme-dark] {
+            background: #000;
+        }
+
+        .toggler {
+            display: inline-flex;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .toggler__input {
+            position: absolute;
+            left: -100vw;
+            opacity: 0;
+        }
+
+        .toggler__state {
+            display: flex;
+        }
+
+        .toggler__control {
+            box-sizing: border-box;
+            width: 52px;
+            height: 28px;
+            border-radius: 16px;
+            border: 1px solid #DDE2E5;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .toggler__circle {
+            box-sizing: border-box;
+            width: 24px;
+            height: 24px;
+            border-radius: 16px;
+            background-color: #DDE2E5;
+            position: relative;
+        }
+
+        .toggler__label {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #495057;
+            align-self: center;
+        }
+
+        .toggler__input:checked~.toggler__state .toggler__control {
+            border: 1px solid #4263EB;
+            background-color: #4263EB;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .toggler__input:focus~.toggler__state .toggler__label {
+            text-decoration: underline;
+        }
+    </style>
+    <script defer src="./theme-changer.js"></script>
+</head>
+
+<body>
+    <label class="toggler">
+        <div class="toggler__label">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_16769_229)">
+                    <path
+                        d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z"
+                        stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12 1V3" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M12 21V23" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.22021 4.21997L5.64021 5.63997" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M18.3599 18.36L19.7799 19.78" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M1 12H3" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M21 12H23" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.22021 19.78L5.64021 18.36" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M18.3599 5.63997L19.7799 4.21997" stroke="#495057" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_16769_229">
+                        <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+        <input class="toggler__input" type="checkbox" id="theme-changer">
+        <div class="toggler__state">
+            <div class="toggler__control">
+                <div class="toggler__circle"></div>
+            </div>
+            <div class="toggler__label">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18.9999 10.79C18.8426 12.4922 18.2038 14.1144 17.1581 15.4668C16.1125 16.8192 14.7034 17.8458 13.0956 18.4265C11.4878 19.0073 9.74789 19.1181 8.0794 18.7461C6.41092 18.3741 4.8829 17.5345 3.67413 16.3258C2.46536 15.117 1.62584 13.589 1.25381 11.9205C0.881777 10.252 0.992617 8.51208 1.57336 6.9043C2.15411 5.29651 3.18073 3.88737 4.53311 2.84175C5.8855 1.79614 7.5077 1.15731 9.2099 1C8.21331 2.34827 7.73375 4.00945 7.85843 5.68141C7.98312 7.35338 8.70376 8.92506 9.8893 10.1106C11.0748 11.2961 12.6465 12.0168 14.3185 12.1415C15.9905 12.2662 17.6516 11.7866 18.9999 10.79V10.79Z"
+                        stroke="#ACB5BD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+        </div>
+    </label>
+</body>
+
 </html>
