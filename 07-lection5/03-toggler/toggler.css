@@ -1,0 +1,70 @@
+.toggler {
+    display: inline-flex;
+    position: relative;
+}
+
+.toggler__input {
+    position: absolute;
+    left: -100vw;
+    opacity: 0;
+}
+
+.toggler__state {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggler__control {
+    box-sizing: border-box;
+    width: 52px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid #DDE2E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+}
+
+.toggler__circle {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+    background-color: #DDE2E5;
+    position: relative;
+}
+
+.toggler__input:disabled~.toggler__state .toggler__control {
+    background-color: #DDE2E5;
+}
+
+.toggler__input:disabled~.toggler__state .toggler__circle {
+    background-color: #ACB5BD;
+}
+
+.toggler__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
+
+.toggler__input:checked~.toggler__state .toggler__control {
+    border: 1px solid #4263EB;
+    background-color: #4263EB;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.toggler__input:checked~.toggler__state .toggler__control .toggler__circle {
+    background-color: white;
+}
+
+.toggler__input:focus~.toggler__state .toggler__label {
+    text-decoration: underline;
+}
